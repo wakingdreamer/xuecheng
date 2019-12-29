@@ -11,6 +11,9 @@
 		ul {
 			list-style: none;
 		}
+		body {
+			background-color: #f3f5f7;
+		}
 		.clearfix:before, .clearfix:after {
 			display: table;
 			content: ""
@@ -19,11 +22,120 @@
 			clear: both;
 		}
 		.clearfix {
-			zoom: 1;
+			*zoom: 1;
+		}
+		a {
+			color: #050505;
+			text-decoration: none;
+		}
+		header {
+			width: 1920px;
+			height: 100px;
+			border: 1px;
+			overflow: hidden;
+		}
+		nav {
+			width: 1600px;
+			height: 42px;
+			/*background-color: hotpink;*/
+			margin: 24px auto;
+		}
+		.logo {
+			float: left;
+		}
+		.navbar {
+			float: left;
+		}
+		.navbar li {
+			float: left;
+			line-height: 42px;
+			margin-left: 50px;
+		}
+		.navbar li a {
+			padding: 0 20px;
+			display: block;
+		}
+		.navbar li a:hover {
+			border-bottom: 2px solid #00a4ff;
+		}
+		.search {
+			width: 415px;
+			height: 40px;
+			float: left;
+			/*background-color: pink;*/
+			border: #00a4ff 1px solid;
+			margin-left: 265px;
+		}
+		.search input[type=text] {
+			width: 360px;
+			height: 40px;
+			display: block;
+			float: left;
+			border: 0px;
+		}
+		.search input[type=submit] {
+			width: 55px;
+			height: 40px;
+			display: block;
+			float: left;
+			border: 0px;
+			background: #00a4ff url(images/search.png) center no-repeat;
+		}
+		.personal {
+			/*width: 318px;*/
+			/*height: 42px;*/
+			float: left;
+			line-height: 50px;
+			/*background-color: blue;*/
+
+		}
+	    .personal a {
+			display: block;
+			float: left;
+			/*height: 42px;*/
+			line-height: 42px;
+			margin-left: 20px;
+		}
+		.personal img{
+			width: 30px;
+			height: 30px;
+			margin: 0 5px;
+			/*float: left;*/
+			vertical-align: middle;
 		}
 	</style>
 </head>
 <body>
+	<header>
+		<nav>
+			<div class="logo">
+				<img src="images/logo.png" alt="">
+			</div>
+			<div class="navbar">
+				<ul>
+					<li><a href="#">首页</a></li>
+					<li><a href="#">课程</a></li>
+					<li><a href="#">职业规划</a></li>
+				</ul>
+			</div>
+			<div class="search">
+				<form action="">
+					<input type="text" name="" id="" placeholder="请输入关键字">
+					<input type="submit" value="">
+				</form>
+			</div>
+
+			<div class="personal">
+<!-- 				<a href="">个人中心</a> -->
+				<a href="">个人中心 <img src="images/message.png" alt=""></a>
+				<a href=""><img src="images/avator.png" alt="">qq-leishui</a>
+				<!-- <a href="">个人中心 <img src="images/message.png" alt=""></a> -->
+				<!-- <a href="">刘德华 </a> -->
+<!-- 				
+				<img src="images/avator.png" alt=""> -->
+			</div>
+		</nav>
+	</header>
 	
 </body>
 </html>
