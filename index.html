@@ -103,6 +103,98 @@
 			/*float: left;*/
 			vertical-align: middle;
 		}
+		.banner	{
+			width: 1920px;
+			height: 420px;
+			background-color: #1c036c;
+		}
+		.banner .banner-inner {
+			width: 1200px;
+			height: 420px;
+			margin: 0 auto;
+			background-image: url(images/banner.png);
+		}
+		.banner .banner-inner .slide {
+			width: 190px;
+			height: 420px;
+			float: left;
+			background-color: rgba(0, 0, 0, 0.3);
+		}
+		.banner .slide li {
+			height: 45px;
+			line-height: 45px;
+			/*width: 155px;*/
+			font-size: 14px;
+			color: #ffffff;
+			padding: 0 20px;
+		}
+		.banner .slide li a {
+			color: #ffffff;
+		}
+		.banner .slide li span {
+			float: right;
+			font-family: arial;
+		}
+		.banner li a:hover {
+			color: #00b4ff;
+		}
+		.timetable {
+			width: 230px;
+			height: 400px;
+			float: right;
+			margin-top: 50px;
+		}
+		.timetable dt {
+			height: 50px;
+			background-color: #9bceea;
+			color: #ffffff;
+			line-height: 50px;
+			text-align: center;
+			font-weight: 700;
+			letter-spacing: 2px;
+		}
+		.timetable dd {
+			height: 70px;
+			width: 230px;
+			background-color: #ffffff;
+			/*background-color: pink;*/
+		}
+		.timetable dd a {
+			display: block;
+			height: 69px;
+			width: 200px;
+			border-bottom: 1px solid #efefef;
+			margin: 0 auto;
+		}
+		.timetable dd a:hover {
+			color: #44bcff;
+		}
+		.timetable dd h4 {
+			font-weight: normal;
+			font-size: 15px;
+			padding-top: 15px;
+		}
+		.timetable span {
+			font-weight: normal;
+			font-size: 14px;
+			color: #bdbdbd;
+		}
+		.timetable dd:last-child {
+			height: 60px;
+			text-align: center;
+			line-height: 40px;
+			padding: 0;
+			display: table;
+		}
+		.timetable dd:last-child a{
+			display: block;
+			height: 40px;
+			width: 200px;
+			border: 1px solid #00a4ff;
+			margin: 10px auto;
+			font-weight: 700;
+			color: #00a4ff;
+		}
 	</style>
 </head>
 <body>
@@ -126,16 +218,54 @@
 			</div>
 
 			<div class="personal">
-<!-- 				<a href="">个人中心</a> -->
 				<a href="">个人中心 <img src="images/message.png" alt=""></a>
 				<a href=""><img src="images/avator.png" alt="">qq-leishui</a>
-				<!-- <a href="">个人中心 <img src="images/message.png" alt=""></a> -->
-				<!-- <a href="">刘德华 </a> -->
-<!-- 				
-				<img src="images/avator.png" alt=""> -->
 			</div>
 		</nav>
 	</header>
 	
+	<div class="banner">
+		<div class="banner-inner">
+			<div class="slide">
+				<ul>
+					<li><a href="#">前端开发 <span>></span></a></li>
+					<li><a href="#">后端开发 <span>></span></a></li>
+					<li><a href="#">移动开发 <span>></span></a></li>
+					<li><a href="#">人工智能 <span>></span></a></li>
+					<li><a href="#">商业预测 <span>></span></a></li>
+					<li><a href="#">云计算&大数据 <span>></span></a></li>
+					<li><a href="#">运维&测试 <span>></span></a></li>
+					<li><a href="#">UI设计 <span>></span></a></li>
+					<li><a href="#">产品 <span>></span></a></li>
+				</ul>
+			</div>
+			<div class="timetable">
+				<dl>
+					<dt>我的课程表</dt>
+					<dd>
+						<a href="#">
+							<h4>继续学习 程序语言设计</h4>
+							<span>正在学习-使用对象</span>
+						</a>
+					</dd>
+					<dd>
+						<a href="">
+							<h4>继续学习 程序语言设计</h4>
+							<span>正在学习-使用对象</span>
+						</a>
+					</dd>
+					<dd>
+						<a href="">
+							<h4>继续学习 程序语言设计</h4>
+							<span>正在学习-使用对象</span>
+						</a>
+					</dd>
+					<dd>
+						<a href="">全部课程</a>
+					</dd>
+				</dl>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
