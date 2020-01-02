@@ -11,9 +11,6 @@
 		ul {
 			list-style: none;
 		}
-		body {
-			background-color: #f3f5f7;
-		}
 		.clearfix:before, .clearfix:after {
 			display: table;
 			content: ""
@@ -27,6 +24,13 @@
 		a {
 			color: #050505;
 			text-decoration: none;
+		}
+		input {
+			border: 0;
+			box-sizing: border-box;
+		}
+		body {
+			background-color: #f3f5f7;
 		}
 		header {
 			width: 1920px;
@@ -104,48 +108,48 @@
 			vertical-align: middle;
 		}
 		.banner	{
-			width: 1920px;
+			/*width: 1920px;*/
 			height: 420px;
 			background-color: #1c036c;
 		}
-		.banner .banner-inner {
+		.banner-inner {
 			width: 1200px;
 			height: 420px;
 			margin: 0 auto;
-			background-image: url(images/banner.png);
+	
+			background:  url(images/banner.png) 0 0 no-repeat;
 		}
-		.banner .banner-inner .slide {
+		.slide {
 			width: 190px;
 			height: 420px;
 			float: left;
 			background-color: rgba(0, 0, 0, 0.3);
 		}
-		.banner .slide li {
+		.slide li a {
+			display: block;
 			height: 45px;
+			/*width: 420px;*/
 			line-height: 45px;
-			/*width: 155px;*/
 			font-size: 14px;
 			color: #ffffff;
 			padding: 0 20px;
 		}
-		.banner .slide li a {
-			color: #ffffff;
+		.slide li a:hover {
+			color: #00b4ff;
 		}
-		.banner .slide li span {
+		.slide a span {
 			float: right;
 			font-family: arial;
 		}
-		.banner li a:hover {
-			color: #00b4ff;
-		}
 		.timetable {
 			width: 230px;
-			height: 400px;
+			height: 300px;
 			float: right;
 			margin-top: 50px;
+			background-color: pink;
 		}
 		.timetable dt {
-			height: 50px;
+			height: 51px;
 			background-color: #9bceea;
 			color: #ffffff;
 			line-height: 50px;
@@ -154,46 +158,52 @@
 			letter-spacing: 2px;
 		}
 		.timetable dd {
-			height: 70px;
-			width: 230px;
+			height: 62px;
+			box-sizing: border-box;
 			background-color: #ffffff;
-			/*background-color: pink;*/
 		}
-		.timetable dd a {
+		dd a {
 			display: block;
-			height: 69px;
+			height: 62px;
 			width: 200px;
 			border-bottom: 1px solid #efefef;
 			margin: 0 auto;
+			padding-left: 20px;
+			padding-bottom: 5px;
+			box-sizing: border-box;
 		}
-		.timetable dd a:hover {
-			color: #44bcff;
-		}
-		.timetable dd h4 {
+		dd h4 {
 			font-weight: normal;
 			font-size: 15px;
 			padding-top: 15px;
 		}
-		.timetable span {
+		dd span {
 			font-weight: normal;
 			font-size: 14px;
 			color: #bdbdbd;
 		}
-		.timetable dd:last-child {
-			height: 60px;
+		dd a:hover {
+			color: #44bcff;
+		}
+		dd:last-child {
+			overflow:hidden;
+			/*display: block;
 			text-align: center;
+			line-height: 62px;*/
+		}
+		dd:last-child a {
+			font-weight: 700;
+			line-height: 62px;
+			width: 150px;
+			height: 40px;
 			line-height: 40px;
 			padding: 0;
-			display: table;
+			text-align: center;
+			margin-top: 10px;
+			border-bottom: none;
 		}
-		.timetable dd:last-child a{
-			display: block;
-			height: 40px;
-			width: 200px;
+		dd:last-child a:hover {
 			border: 1px solid #00a4ff;
-			margin: 10px auto;
-			font-weight: 700;
-			color: #00a4ff;
 		}
 	</style>
 </head>
