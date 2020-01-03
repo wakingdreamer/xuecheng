@@ -53,10 +53,13 @@
 		.navbar li {
 			float: left;
 			line-height: 42px;
+			margin-left: 10px;
+		}
+		.navbar li:first-child {
 			margin-left: 50px;
 		}
 		.navbar li a {
-			padding: 0 20px;
+			/*padding: 0 20px;*/
 			display: block;
 		}
 		.navbar li a:hover {
@@ -207,6 +210,38 @@
 			background-color: #00a4ff;
 			color: #f3f5f7;
 		}
+		.recommend {
+			margin: 3px auto 0;
+			width: 1200px;
+			height: 60px;
+			/*border: red 1px solid;*/
+			line-height: 60px;
+			box-shadow: 1px 1px 10px #888894;
+		}
+		.recommend a {
+			margin: 15px 0 9px 25px;
+			display: block;
+			float: left;
+			width: 90px;
+			height: 30px;
+			line-height: 30px;
+			/*border: red 1px solid;*/
+			border-right: #bfbfbf 1px solid;
+		}
+		.recommend a:hover {
+			color: #42b2ff;
+		}
+		.recommend a:first-child {
+			color: #42b2ff;
+		}
+		.recommend a:nth-last-child(2) {
+			border-right: none;
+		}
+		.recommend a:last-child {
+			float: right;
+			border: none;
+			color: #42b2ff;
+		}
 	</style>
 </head>
 <body>
@@ -278,6 +313,16 @@
 				</dl>
 			</div>
 		</div>
+	</div>
+	<div class="recommend">
+		<a href="#">精品课程</a>
+		<a href="#">JQuery</a>
+		<a href="#">Spark</a>
+		<a href="#">MySql</a>
+		<a href="#">JavaWeb</a>
+		<a href="#">MySQL</a>
+		<a href="#">JavaWeb</a>
+		<a href="#">修改兴趣</a>
 	</div>
 </body>
 </html>
