@@ -262,3 +262,57 @@ dd:last-child a:hover {
 	border: none;
 	color: #42b2ff;
 }
+.recom-header {
+	width: 1200px;
+	height: 60px;
+	border: red 1px solid;
+	margin-top: 10px;
+	line-height: 60px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.recom-header span {
+	float: left;
+	margin-left: 10px;
+	color: #494949;
+}
+.recom-header a {
+	float: right;
+	margin-right: 10px;
+	color: #a5a5a5;
+	font-size: 14px;
+	padding-top: 10px;
+}
+.recom-body {
+	width: 1200px;
+	height: 1000px;
+	border: red 1px solid;
+	margin: 0 auto;
+	font-size: 0;
+	/*box-sizing: border-box;*/
+}
+/*.recom-body ul {
+	width: 1200px;
+	height: 1000px;
+}*/
+.recom-body li {
+	width: 228px;
+	height: 270px;
+	border: 1px solid black;
+	float: left;
+	background-color: red;
+	/*margin-right: 10px;*/
+	/*margin-top: 10px;*/
+}
+.recom-body h5 {
+	margin: 15px;
+	color: 050505;
+}
+.recom-body span {
+	color: #ff7c2d;
+}
+.recom-body p {
+	margin: 15px;
+	font-size: 14px;
+	color: #999999;
+}
