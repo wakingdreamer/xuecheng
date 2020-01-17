@@ -4,7 +4,8 @@
 }
 html,body {
 	/* height: 100%; */
-	background-color: gray;
+	/* background-color: gray; */
+	background-color: #f3f5f7;
 }
 
 ul {
@@ -131,7 +132,7 @@ nav {
 .circle li {
 	width: 16px;
 	height: 16px;
-	background-color: green;
+	/* background-color: green; */
 	float: left;
 	display: block;
 	margin-left: 10px;
@@ -187,7 +188,7 @@ nav {
 	box-sizing: border-box;
 	background-color: #ffffff;
 }
-dd a {
+.timetable dd a {
 	display: block;
 	height: 62px;
 	width: 200px;
@@ -197,26 +198,26 @@ dd a {
 	padding-bottom: 5px;
 	box-sizing: border-box;
 }
-dd h4 {
+.timetable dd h4 {
 	font-weight: normal;
 	font-size: 15px;
 	padding-top: 15px;
 }
-dd span {
+.timetable dd span {
 	font-weight: normal;
 	font-size: 14px;
 	color: #bdbdbd;
 }
-dd a:hover {
+.timetable dd a:hover {
 	color: #44bcff;
 }
-dd:last-child {
+.timetable dd:last-child {
 	overflow:hidden;
 	/*display: block;
 	text-align: center;
 	line-height: 62px;*/
 }
-dd:last-child a {
+.timetable dd:last-child a {
 	font-weight: 700;
 	line-height: 62px;
 	width: 180px;
@@ -228,7 +229,7 @@ dd:last-child a {
 	border-bottom: none;
 	border: 1px solid #00a4ff;
 }
-dd:last-child a:hover {
+.timetable dd:last-child a:hover {
 	background-color: #00a4ff;
 	color: #f3f5f7;
 }
@@ -237,7 +238,7 @@ dd:last-child a:hover {
 	width: 1200px;
 	height: 60px;
 	line-height: 60px;
-	background-color: pink;
+	background-color: #ffffff;
 }
 .recommend a {
 	margin: 15px 10px;
@@ -267,9 +268,10 @@ dd:last-child a:hover {
 	width: 1200px;
 	/* height: 1000px; */
 	margin: 10px auto;
-	background-color: greenyellow;
+	/* background-color: greenyellow; */
 	/* margin-bottom: 50px; */
 	/*background-color: pink;*/
+	margin-bottom: 100px;
 }
 .recom-header {
 	width: 1200px;
@@ -333,4 +335,58 @@ dd:last-child a:hover {
 	margin: 15px;
 	font-size: 14px;
 	color: #999999;
+}
+.footer {
+	height: 270px;
+	background-color: #ffffff;
+}
+.footer-inner {
+	width: 1200px;
+	margin: 0 auto;
+}
+.footer-l {
+	padding-top: 30px;
+	width: 500px;
+	height: 240px;
+	float: left;
+}
+.footer-l p {
+	margin: 10px 0;
+	font-size: 12px;
+	color: #666666;
+}
+.footer-l a {
+	color: #00a4ff;
+	border: solid 2px #00a4ff;
+	width: 120px;
+	height: 36px;
+	display: block;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 36px;
+	text-align: center;
+}
+.footer-r {
+	padding-top: 30px;
+	width: 700px;
+	height: 240px;
+	float: right;
+}
+.footer-r dl {
+	float: left;
+	margin-left: 150px;
+}
+.footer-r dt{
+	color: #7d7d7d;
+	margin-bottom: 10px;
+}
+.footer-r dd {
+	color: #333333;
+	height: 20px;
+	font-size: 12px;
+	padding: 2px 0;
+}
+.footer-r dd a:hover {
+	color: #00a4ff;
+	text-decoration: underline;
 }
