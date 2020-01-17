@@ -107,7 +107,7 @@ nav {
 	vertical-align: middle;
 }
 .banner	{
-	width: 1920px;
+	/* width: 1920px; */
 	height: 420px;
 	background-color: #1c036c;
 }
@@ -265,13 +265,13 @@ dd:last-child a:hover {
 }
 .recom-products {
 	width: 1200px;
-	height: 1000px;
+	/* height: 1000px; */
 	margin: 10px auto;
 	background-color: greenyellow;
 	/* margin-bottom: 50px; */
 	/*background-color: pink;*/
 }
-/*.recom-header {
+.recom-header {
 	width: 1200px;
 	height: 60px;
 	margin-bottom: 10px;
@@ -292,7 +292,7 @@ dd:last-child a:hover {
 }
 .recom-body {
 	width: 1200px;
-	height: 1000px;
+	/* height: 1000px; */
 	margin: 0 auto;
 }
 .recom-body li {
@@ -302,6 +302,7 @@ dd:last-child a:hover {
 	box-shadow:3px 3px 3px rgba(0, 0, 0, 0.2);
 	float: left;
 	display: block;
+	margin-right: 12px;
 }
 .recom-body li .coursename {
 	padding: 5px 10px;
