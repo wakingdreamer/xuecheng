@@ -303,7 +303,13 @@ dd:last-child a:hover {
 	float: left;
 	display: block;
 	margin-right: 12px;
+	margin-top: 15px;
 }
+.recom-body li:hover {
+	margin-top: 10px;
+	box-shadow: 0 10px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
 .recom-body li .coursename {
 	padding: 5px 10px;
 	font-size: 14px;
