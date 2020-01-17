@@ -2,6 +2,11 @@
 	margin: 0;
 	padding: 0;
 }
+html,body {
+	/* height: 100%; */
+	background-color: gray;
+}
+
 ul {
 	list-style: none;
 }
@@ -22,9 +27,6 @@ a {
 input {
 	border: 0;
 	box-sizing: border-box;
-}
-body {
-	background-color: #f3f5f7;
 }
 header {
 	width: 1920px;
@@ -169,7 +171,7 @@ nav {
 	height: 300px;
 	float: right;
 	margin-top: 50px;
-	background-color: pink;
+	/*background-color: pink;*/
 }
 .timetable dt {
 	height: 51px;
@@ -231,21 +233,20 @@ dd:last-child a:hover {
 	color: #f3f5f7;
 }
 .recommend {
-	margin: 3px auto 0;
+	margin: 4px auto;
 	width: 1200px;
 	height: 60px;
-	/*border: red 1px solid;*/
 	line-height: 60px;
-	box-shadow: 1px 1px 10px #888894;
+	background-color: pink;
 }
 .recommend a {
-	margin: 15px 0 9px 25px;
+	margin: 15px 10px;
 	display: block;
 	float: left;
 	width: 90px;
 	height: 30px;
 	line-height: 30px;
-	/*border: red 1px solid;*/
+	padding-left: 5px;
 	border-right: #bfbfbf 1px solid;
 }
 .recommend a:hover {
@@ -262,14 +263,20 @@ dd:last-child a:hover {
 	border: none;
 	color: #42b2ff;
 }
-.recom-header {
+.recom-products {
+	width: 1200px;
+	height: 1000px;
+	margin: 10px auto;
+	background-color: greenyellow;
+	/* margin-bottom: 50px; */
+	/*background-color: pink;*/
+}
+/*.recom-header {
 	width: 1200px;
 	height: 60px;
-	border: red 1px solid;
-	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-top: 2px;
 	line-height: 60px;
-	margin-left: auto;
-	margin-right: auto;
 }
 .recom-header span {
 	float: left;
@@ -286,23 +293,27 @@ dd:last-child a:hover {
 .recom-body {
 	width: 1200px;
 	height: 1000px;
-	border: red 1px solid;
 	margin: 0 auto;
-	font-size: 0;
-	/*box-sizing: border-box;*/
 }
-/*.recom-body ul {
-	width: 1200px;
-	height: 1000px;
-}*/
 .recom-body li {
 	width: 228px;
 	height: 270px;
-	border: 1px solid black;
+	background-color: #ffffff;
+	box-shadow:3px 3px 3px rgba(0, 0, 0, 0.2);
 	float: left;
-	background-color: red;
-	/*margin-right: 10px;*/
-	/*margin-top: 10px;*/
+	display: block;
+}
+.recom-body li .coursename {
+	padding: 5px 10px;
+	font-size: 14px;
+}
+.recom-body li .courseinfo {
+	padding: 0 10px;
+	font-size: 13px;
+	color: #999999;
+}
+.recom-body li .gaoji {
+	color: #ff7c2d;
 }
 .recom-body h5 {
 	margin: 15px;
